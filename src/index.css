@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #0f172a;
+}
+
+@theme {
+  --color-mercury-100: #e6e6e9;
+  --color-mercury-900: #1a1a1d;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-50;
+}
